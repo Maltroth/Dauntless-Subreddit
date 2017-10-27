@@ -17,8 +17,8 @@
   * Flair text: Shrike,    css class: shrike
   * Flair text: Skraev,    css class: Skraev
 4. Click on "link flair templates" in the same "edit flair" page and add the following templates:
-  * Flair text: Dev Response, css class: dev-response
-  * Flair text: Official, css class: official
+  * Flair text: Dev Response, css class: dev-response (this flair puts the "Dev Response" besides the title)
+  * Flair text: Official, css class: official (this flair puts the Phoenix Labs logo in the background right of the thread)
 5. Click on "grant flair" in the same "edit flair" page, and for each dev that is using reddit, you can grant them the official flair by typing their username and adding them the flair text: Phoenix Labs and css class: phoenix-labs
 6. Go to "edit stylesheet" and upload every image in the folder "/images/" from the .zip file (not the subfolders) with the same name of the file
 7. Copy and paste from /stylesheet.min.css to the stylesheet text area, then save
