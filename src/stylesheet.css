@@ -1,0 +1,505 @@
+body {
+    background-image: url(%%cliff-background-top%%),url(%%green-blue-gradient%%);
+    background-repeat: no-repeat,repeat;
+    background-size: 100% auto,100%;
+    background-position: center 273px, center;
+}
+
+.res-nightmode body {
+    background-image: none;
+}
+
+body.submit-page {
+    background-position: center 144px,center;
+}
+
+#header {
+    height: 273px;
+}
+
+#header .redditname a {
+    background-image: url(%%dauntless-logo%%);
+    height: 141px;
+    width: 614px;
+    color: transparent;
+    font-size: 0;
+    margin-left: 40px;
+}
+
+#header .tabmenu {
+    margin: 30px 0 0;
+}
+
+.arrow.down:hover:after,
+#header .tabmenu:before {
+    background: -webkit-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,.6),rgba(0,0,0,.5)),url(%%white-line%%);
+    background: -o-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,.5),rgba(0,0,0,.5)),url(%%white-line%%);
+    background: -moz-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,.6),rgba(0,0,0,.5)),url(%%white-line%%);
+    background: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.6),rgba(0,0,0,.5)),url(%%white-line%%);
+    background-repeat: repeat, no-repeat;
+    background-position: top center;
+}
+
+#header .tabmenu li a {
+    font: 300 13px/32px "Source Sans Pro",sans-serif;
+}
+
+#header-bottom-left {
+    top: 60px;
+}
+
+.submit-page #header-bottom-left {
+    top: 25px;
+    left: 50%;
+    margin-left: -357px;
+}
+
+#header-img.default-header, 
+#header-img {
+    display: none;
+}
+
+.side .md .-blocks, 
+.side .md .-lists, 
+.side .md pre, 
+.side .md blockquote, 
+.side .md table, 
+.side .md p, 
+.side .md ul, 
+.side .md ol {
+    font: 13px/1.45 "Source Sans Pro",sans-serif;
+}
+
+.side {
+    margin: 230px 16px 108px 0;
+}
+
+.side:before {
+    display: none;
+}
+
+.side .md ul:first-of-type {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 488px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 500;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+}
+
+.side .md ul:first-of-type:before {
+    display: block;
+    content: "Important";
+    color: #336699;
+    font-size: 18px;
+    font-family: "Source sans pro",sans-serif;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px rgba(0,0,0,.25);
+}
+
+.titlebox:before,
+.side .titlebox h1.redditname a {
+    display: none;
+}
+
+.side .titlebox h1.redditname {
+    top: 306px;
+}
+
+.titlebox span.subscribers {
+    top: 306px;
+    color: #333;
+    font-size: 16px;
+}
+
+.titlebox span.subscribers .number {
+    display: block;
+    width: 288px;
+    text-align: center;
+}
+
+.titlebox .fancy-toggle-button {
+    top: 370px;
+    margin-left: 20px;
+}
+
+.titlebox .fancy-toggle-button .active.add {
+    background-color: transparent;
+    background-image: url(%%subscribe%%) !important;
+    width: 600px;
+    height: 155px;
+    font-size: 0;
+    box-shadow: none;
+    transition: all ease .3s;
+    opacity: .9;
+    position: absolute;
+    top: -216px;
+    right: -336px;
+}
+
+.titlebox .fancy-toggle-button .active.add:hover {
+    opacity: 1;
+    background-color: transparent;
+}
+
+.titlebox .fancy-toggle-button .active.remove {
+    margin-left: 74px;
+    margin-top: -15px;
+    line-height: 18px;
+    height: 18px;
+}
+
+div.titlebox span.number:after {
+    content: " Slayers in Ramsgate";
+}
+
+.submit .morelink {
+    top: 460px;
+    padding: 0px 20px;
+    border-radius: 50px;
+    border: none;
+    background: #37628F;
+    background-image: -webkit-linear-gradient(left,#274b6e,#37628F,#274b6e);
+    background-image: -moz-linear-gradient(left,#274b6e,#37628F,#274b6e);
+    background-image: -o-linear-gradient(left,#274b6e,#37628F,#274b6e);
+    background-image: linear-gradient(to left,#274b6e,#37628F,#274b6e);
+    box-shadow: none;
+}
+
+.submit .morelink:hover {
+    background-image: none;
+}
+
+.submit-text .morelink:before, 
+.submit-link .morelink:after {
+    background: transparent;
+}
+
+#search {
+    top: 400px;
+}
+
+#search #searchexpando label,
+.res #search #searchexpando label {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 0 10px;
+}
+
+.search-page #search, 
+.res .search-page #search {
+    top: -168px;
+    transform: none;
+}
+
+.search-result-group-header {
+    padding: 0 10px;
+}
+
+.titlebox .users-online {
+    position: absolute;
+    top: 330px;
+    z-index: 500;
+    color: #666;
+    width: 288px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.titlebox .users-online .number:after {
+    content: " are in the tavern";
+}
+
+.titlebox .users-online .number:before {
+    display: none;
+}
+
+.side .titlebox h1.redditname:before {
+    background-color: rgba(255,255,255,.75);
+    height: 90px;
+}
+
+.footer {
+    background: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,.6),rgba(0,0,0,0)),url(%%white-line%%);
+    background: -o-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,0,.6),rgba(0,0,0,0)),url(%%white-line%%);
+    background: -moz-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,0,.6),rgba(0,0,0,0)),url(%%white-line%%);
+    background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.6),rgba(0,0,0,0)),url(%%white-line%%);
+    background-repeat: repeat,no-repeat;
+    background-position: top center;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.footer .col {
+    -webkit-flex:none;
+    flex: none;
+}
+
+body.listing-page>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #bottom-comments:not(.child)>.sitetable>.comment, #images, .sponsorshipbox, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side, #ad_main_top, .search-result-subreddit, .search-result-listing+.search-result-listing .contents, [class] .searchfacets, #search input[type=text], .commentarea>.usertext, .comments-page .side .linkinfo, .comments-page .side .linkinfo .shortlink input, .commentarea .menuarea, .commentarea .panestack-title, .side .spacer input, .search-result-listing {
+    background-color: rgba(255,255,255,.75);
+}
+
+.comments-page .side .linkinfo .shortlink input {
+    margin: 38px -16px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.16);
+}
+
+.res .commentarea .panestack-title,
+.commentarea .panestack-title {
+    margin-top: 20px;
+}
+
+.commentarea .menuarea {
+    padding-bottom: 10px;
+}
+
+#search #searchexpando,
+#search input[type=text]:focus {
+    background-color: #fff;
+}
+
+a, a:active,
+.thing .title.loggedin.click, .thing .title.click, 
+.thing .title.loggedin, .thing .title {
+    color: #336699;
+}
+
+a:hover,
+.thing .title:hover {
+    color: #4E9DEC;
+    text-decoration: none;
+}
+
+body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_button,
+.submit-page #newlink.submit.content ul.tabmenu.formtab {
+    background-color: #336699;
+}
+
+body .btn:hover, body button:hover, .c-btn-primary:hover, .wiki-page .wiki-page-content .wiki_button:hover,
+.submit-page #newlink.submit.content .tabmenu.formtab a:hover {
+    background-color: #4E9DEC;
+}
+
+.commentarea > .sitetable > .comment {
+    position: relative;
+}
+
+.flairselector ul {
+    width: 62px;
+    margin: 0 10px;
+}
+
+.side .titlebox .flair,
+.flairselector .flairoptionpane ul li .flair,
+.commentarea > .sitetable > .comment .flair {
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    width: 62px;
+    height: 62px;
+    background-image: url(%%user-flairs%%);
+    font-size: 0;
+    color: transparent;
+}
+
+.side .titlebox .flair,
+.flairselector .flairoptionpane ul li .flair {
+    position: static;
+    display: inline-block;
+}
+
+.side .titlebox .tagline a.flairselectbtn {
+    right: 162px;
+    font: normal 16px "Source Sans", Lato, sans-serif;
+    margin-top: 20px;
+}
+
+.flair-embermane {
+    background-position-x: -62px;
+}
+
+.flair-gnasher {
+    background-position-x: -124px;
+}
+
+.flair-pangar {
+    background-position-x: -186px;
+}
+
+.flair-quillshot {
+    background-position-x: -248px;
+}
+
+.flair-shrike {
+    background-position-x: -310px;
+}
+
+.flair-skraev {
+    background-position-x: -372px;
+}
+
+.flair-phoenix-labs {
+    background-image: url(%%phoenixlabs%%) !important;
+}
+
+.flair-phoenix-labs:before {
+    content: "" !important;
+}
+
+.comment .flair-phoenix-labs + span:before {
+    content: " ";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border: 1px solid #fea710;
+    z-index: -1;
+}
+
+.link .flair.flair-phoenix-labs {
+    background-image: none !important;
+    background-color: #fea710;
+    color: white;
+}
+
+.commentarea > .sitetable > .comment {
+    overflow: visible;
+}
+
+.commentarea > .sitetable > .comment .entry {
+    margin-left: 110px;
+}
+
+.thing.link.stickied li a, 
+.entry .buttons li a,
+.entry .tagline {
+    color: #666 !important;
+}
+
+.comments-page .side .linkinfo {
+    top: 525px;
+}
+
+.sidecontentbox .title {
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgba(0,0,0,.25);
+}
+
+.side .titlebox .md h1,
+.side .titlebox .md h2,
+.sidecontentbox .title h1,
+.side #moderation_tools .title h1 {
+    color: #336699;
+    font-size: 18px;
+    font-family: "Source sans pro", sans-serif;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.side .titlebox .md h1,
+.side .titlebox .md h2 {
+    margin: 40px 0 20px 0!important;
+    border-bottom: solid 1px rgba(0,0,0,.25);
+}
+
+.side .titlebox .md h1 {
+    margin: 10px 0 20px 0!important;
+}
+
+.md .-lists, .md ul, .md ol {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.titlebox .bottom {
+    color: transparent;
+    font-size: 0;
+}
+
+.titlebox .bottom .age {
+    color: #666;
+    font-size: 10px;
+}
+
+.titlebox .bottom .flair {
+    display: none;
+}
+
+.res .commentarea>.usertext {
+    margin-top: 20px;
+    padding-top: 20px !important;
+}
+
+.RES-keyNav-activeElement, 
+.RES-keyNav-activeElement .md-container,
+body .RES-keyNav-activeElement, 
+body .commentarea .RES-keyNav-activeElement .md, 
+.commentarea .RES-keyNav-activeElement.entry .noncollapsed,
+.res .RES-keyNav-activeElement .md-container {
+    background: transparent !important;
+}
+
+.titlebox form.toggle, .leavemoderator {
+    background: transparent;
+}
+
+.md td, .md th {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 10px;
+}
+
+.md th {
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    color: #336699;
+    font-size: 14px;
+    font-family: "Source sans pro",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.md td {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.linkflair-official .linkflairlabel {
+    display: none;
+}
+
+.linkflair-official {
+    overflow: hidden;
+}
+
+.linkflair-official:after {
+    content: " ";
+    width: 150px;
+    height: 200px;
+    background-image: url(%%phxlabs%%);
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-size: 100%;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    position: absolute;
+    top: -60px;
+    right: 15%;
+}
+
+.linkflair-dev-response .linkflairlabel {
+    position: absolute;
+    top: 30px;
+    left: 750px;
+    color: #fea710;
+    border: 1px solid #fea710;
+    background: transparent;
+    padding: 7.5px 20px;
+    height: auto;
+    border-radius: 5px;
+}
