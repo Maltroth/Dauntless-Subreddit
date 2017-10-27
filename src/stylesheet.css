@@ -479,17 +479,16 @@ body .commentarea .RES-keyNav-activeElement .md,
 
 .linkflair-official:after {
     content: " ";
-    width: 150px;
-    height: 200px;
+    width: 105px;
+    height: 90px;
     background-image: url(%%phxlabs%%);
     background-repeat: no-repeat;
     background-position: 80% center;
     background-size: 100%;
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
     position: absolute;
-    top: -60px;
+    top: 0;
     right: 15%;
+    opacity: .75;
 }
 
 .linkflair-dev-response .linkflairlabel {
@@ -502,4 +501,8 @@ body .commentarea .RES-keyNav-activeElement .md,
     padding: 7.5px 20px;
     height: auto;
     border-radius: 5px;
+}
+
+a, a:active, .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
+    color: #336699;
 }
